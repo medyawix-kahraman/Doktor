@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="180" fill="#1a0b3a"/>
+  <path d="M200 50 C200 50 155 68 155 100 a45 45 0 0090 0 C245 68 200 50 200 50Z"
+    fill="rgba(220,38,38,.28)" stroke="#ef4444" stroke-width="2"/>
+  <path d="M175 98 l14 14 22-22"
+    fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="200" y="164" text-anchor="middle" fill="rgba(255,255,255,.4)"
+    font-size="10" font-family="Arial,sans-serif" letter-spacing="2">KORONER ARTER HASTALIGI</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg viewBox="0 0 300 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Op. Dr. Erol Bahtiyar">
+  <defs>
+    <radialGradient id="bg-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0e7490" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0b1d3a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="avatar-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e7490"/>
+      <stop offset="100%" stop-color="#0b1d3a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background glow -->
+  <circle cx="150" cy="160" r="140" fill="url(#bg-grad)"/>
+
+  <!-- Heartbeat / ECG line -->
+  <polyline
+    points="20,160 65,160 80,128 96,188 112,144 128,166 155,166"
+    fill="none" stroke="#0e7490" stroke-width="2.5"
+    stroke-linecap="round" stroke-linejoin="round" opacity="0.65"/>
+  <polyline
+    points="155,166 178,166 200,166 215,138 230,188 246,160 280,160"
+    fill="none" stroke="#0e7490" stroke-width="2.5"
+    stroke-linecap="round" stroke-linejoin="round" opacity="0.65"/>
+
+  <!-- Avatar circle -->
+  <circle cx="150" cy="88" r="44" fill="url(#avatar-grad)" opacity="0.9"/>
+  <circle cx="150" cy="88" r="44" fill="none" stroke="rgba(14,116,144,0.6)" stroke-width="2"/>
+
+  <!-- Initials -->
+  <text x="150" y="100"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="34" font-weight="700"
+    fill="#ffffff" letter-spacing="1">EB</text>
+
+  <!-- Name plate -->
+  <rect x="60" y="194" width="180" height="58" rx="10"
+    fill="rgba(14,116,144,0.18)" stroke="rgba(14,116,144,0.4)" stroke-width="1.5"/>
+  <text x="150" y="218"
+    text-anchor="middle"
+    font-family="Georgia, serif"
+    font-size="13.5" font-weight="600" fill="#ffffff">Op. Dr. Erol Bahtiyar</text>
+  <text x="150" y="238"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="9.5" fill="rgba(255,255,255,0.55)" letter-spacing="1.5">KALP VE DAMAR CERRAHİSİ</text>
+
+  <!-- Decorative dots -->
+  <circle cx="56"  cy="54"  r="7"  fill="rgba(14,116,144,0.35)"/>
+  <circle cx="244" cy="76"  r="4.5" fill="rgba(184,150,62,0.45)"/>
+  <circle cx="44"  cy="238" r="5.5" fill="rgba(184,150,62,0.30)"/>
+  <circle cx="254" cy="248" r="8"  fill="rgba(14,116,144,0.20)"/>
+  <circle cx="210" cy="42"  r="3"  fill="rgba(255,255,255,0.15)"/>
+  <circle cx="80"  cy="290" r="3.5" fill="rgba(14,116,144,0.25)"/>
+
+  <!-- Stethoscope hint -->
+  <path d="M138 136 Q138 148 150 150 Q162 148 162 136"
+    fill="none" stroke="rgba(14,116,144,0.5)" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="150" cy="152" r="4" fill="rgba(14,116,144,0.5)"/>
+</svg>

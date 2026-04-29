@@ -1,0 +1,5 @@
+<svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M5 14 Q5 8 14 8 Q23 8 23 14" fill="none" stroke="#0e7490" stroke-width="2" stroke-linecap="round"/>
+  <path d="M5 14 Q5 20 14 20 Q23 20 23 14" fill="rgba(14,116,144,.1)" stroke="#0e7490" stroke-width="2" stroke-linecap="round"/>
+  <line x1="14" y1="8" x2="14" y2="20" stroke="#0e7490" stroke-width="1.5" stroke-dasharray="2 2"/>
+</svg>
